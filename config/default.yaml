@@ -1,0 +1,35 @@
+config:
+  fname: "default.yaml"
+
+database:
+  mongodb:
+    db01:
+      host: ''
+      port: ''
+      database: ''
+      user: ''
+      passwd: ''
+      replicaSet: ''
+    db02:
+      host: ''
+      port: ''
+      database: ''
+      user: ''
+      passwd: ''
+      replicaSet: ''
+    db03:
+      host: ''
+      port: ''
+      database: ''
+      user: ''
+      passwd: ''
+      replicaSet: ''
+
+models:
+  - model: 'UserModel'
+    collection: 'users'
+    fileName: 'users.js'
+  - model: 'LoginLogModel'
+    collection: 'login.log'
+    fileName: 'loginlog.js'
+

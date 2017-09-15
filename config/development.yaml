@@ -1,0 +1,40 @@
+config:
+  fname: "development.yaml"
+
+database:
+  mongodb:
+    db01:
+      host: 'localhost.localdomain'
+      port: '50000'
+      database: 'sampledb'
+      user: ''
+      passwd: ''
+      replicaSet: 'LocalRep'
+    db02:
+      host: 'localhost.localdomain'
+      port: '50001'
+      database: 'sampledb'
+      user: ''
+      passwd: ''
+      replicaSet: 'LocalRep'
+    db03:
+      host: 'localhost.localdomain'
+      port: '50002'
+      database: 'sampledb'
+      user: ''
+      passwd: ''
+      replicaSet: 'LocalRep'
+  options:
+    server:
+      poolSize: 10
+      autoReconnect: true
+      monitoring: true
+      reconnectTries: 10
+      reconnectInterval: 10
+    replset:
+      poolSize: 10
+      autoReconnect: true
+      monitoring: true
+      reconnectTries: 10
+      reconnectInterval: 10
+

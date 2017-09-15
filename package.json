@@ -1,0 +1,27 @@
+{
+  "name": "mongodbFailover",
+  "version": "1.0.0",
+  "description": "mongodbFailover",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megadreams14/mongoDB_failover_test.git"
+  },
+  "author": "megadreams14@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megadreams14/mongoDB_failover_test/issues"
+  },
+  "homepage": "https://github.com/megadreams14/mongoDB_failover_test",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "js-yaml": "^3.6.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.7"
+  },
+  "devDependencies": {
+  }
+}
